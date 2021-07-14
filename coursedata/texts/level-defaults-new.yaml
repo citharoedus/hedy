@@ -1,0 +1,112 @@
+1:
+    intro_text: |-
+        Bem vindo(a) à Hedy! No nível 1 podes usar os comandos 'print', 'ask' e 'echo'.
+
+        Na barra à esquerda podes ver todos os comandos do nível 1.
+
+        Pressiona o botão azul e o código será escrito para ti!
+
+        Testa o teu próprio código com o botão verde 'Executa o código', por baixo do espaço de programação à esquerda.
+
+        Não sabes o que criar? Nos próximos separadores vais encontrar algumas ideias para te ajudar a construir algo.
+    start_code: Escreve hello world!
+    commands:
+    -   explanation: Escreve algo com 'print'.
+        example: 'Exemplo: print Olá, bem vindo(a) à Hedy!'
+        demo_code: print Olá, bem vindo(a) à Hedy!
+    -   explanation: Pergunta algo usando 'ask'.
+        example: 'Exemplo: ask Qual é a tua cor favorita?'
+        demo_code: ask Qual é a tua cor favorita?
+    -   explanation: Repete alguma coisa usando 'echo'.
+        example: 'Exemplo: echo Então, a tua cor favorita é...'
+        demo_code: |-
+            ask Qual é a tua cor favorita?
+            echo Então, a tua cor favorita é...
+2:
+    intro_text: |-
+        No nível 2 vamos aprender algo novo. Podes dar um nome a uma palavra com 'is'.
+
+        Se usares o código 'nome is Hedy', podes utilizar nome em qualquer lugar do teu código, que será substituído por Hedy.
+
+        Nota: 'ask' mudou, tu também podes guardar a resposta com um nome, da seguinte forma:
+
+        ```
+        resposta is Qual é o teu nome?
+        ```
+        O comando print continua a funcionar como no nível 1 e já não precisas de 'echo'.
+
+        No nível 2 também podes fazer uma lista. Podes fazer com que o computador escolha algo aleatório dessa lista. Fazes isso usando 'at random'.
+
+        Encontras todos os códigos do nível 2 na barra à esquerda. Tens também separadores com tarefas.
+    start_code: print olá mundo!
+    commands:
+    -   explanation: Dá um nome a uma palavra para utilizar no programa, usando 'is'.
+        example: 'Exemplo: nome is Hedy.'
+        demo_code: nome is Hedy
+    -   explanation: Pergunta algo com 'ask'. Atenção! Tens de dar um nome à resposta usando 'is'.
+        example: 'Exemplo: cor is ask Qual é a tua cor favorita?'
+        demo_code: |-
+            cor is ask Qual é a tua cor favorita?
+            print cor is a tua favorita!
+    -   explanation: Escolhe uma palavra aleatória a partir de um grupo de palavras, usando 'at' e 'random'.
+        example: 'Exemplo: animais is cão, gato, canguru.'
+        demo_code: |-
+            animais is cão, gato, canguru
+            print animais at random
+3:
+    start_code: print 'Olá mundo!'
+    intro_text: |-
+        'ask' funciona no nível 3 da mesma forma como no nível 2, mas 'print' agora está diferente.
+
+        Tens de colocar o texto que queres escrever entre aspas simples.
+
+        Isto é útil, porque agora podes escrever todas as palavras que queres. O mesmo se aplica às palavras que utilizas para guardar algo usando 'is'.
+
+        A maioria das linguagens de programação também utilizam aspas simples para escrever, por isso, estamos um passo mais próximos da verdadeira programação.
+
+        ##As tarefas estão a ficar cada vez mais difíceis
+        Vais encontras os comandos à esquerda outra vez e as tarefas nos separadores seguintes. As tarefas estão a tornar-se cada vez mais difíceis, há medida que avanças pelos separadores.
+        Por isso, é melhor começares pela esquerda com a história e trabalhar em direção à direita, para que seja cada vez mais desafiante.
+    commands:
+    -   explanation: Escreve com exactidão utilizando aspas simples.
+        example: "Exemplo: print 'Olá, bem vindo(a) à Hedy.'"
+        demo_code: print 'Olá, bem vindo à Hedy.'
+    -   explanation: Atribui um nome a um pequeno texto e 'print' sem aspas simples
+        example: 'Exemplo: nome is Hedy'
+        demo_code: |-
+            nome is Hedy
+            print 'meu nome é' nome
+    -   explanation: Pergunta alguma coisa com 'ask'
+        example: 'Exemplo: cor is ask Qual é a tua cor favorita?'
+        demo_code: |-
+            cor is ask Qual é a tua cor favorita?
+            print cor ' é a tua favorita!'
+4:
+    start_code: |-
+        nome is ask Qual é o teu nome?
+        if nome is Hedy print 'Fixe' else print 'pfff'
+    intro_text: |-
+        'ask' e 'print' ainda funcionam como no nível 3.
+
+        No nível 4 temos algo novo, o 'if'! Com o 'if' podes escolher entre duas opções diferentes.
+
+        ##Exemplo de código Hedy
+        ```
+        nome is ask Qual é o teu nome?
+        if nome is Hedy print 'Fixe' else print 'boo!'
+        ```
+
+        Este código escreve "Fixe" se introduzires Hedy como nome e "boo!" se introduzires outra coisa qualquer.
+
+        ##As tarefas estão a ficar cada vez mais difíceis
+
+        As tarefas que vais encontrar nos separadores do nível 4 também estão a tornar-se mais difíceis. Por isso, completa-as da esquerda para a direita.
+    commands:
+    -   explanation: Escreve com exactidão utilizando aspas simples
+        example: "Exemplo: print 'Olá, bem vindo(a) à Hedy.'"
+        demo_code: print 'Olá, bem vindo(a) à Hedy.'
+    -   explanation: Pergunta alguma coisa usando 'ask'.
+        example: 'Exemplo: cor is ask Qual é a tua cor favorita?'
+        demo_code: |-
+            cor is ask Qual é a tua cor favorita?
+            print cor ' é a tua favorita!'
